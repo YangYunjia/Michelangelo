@@ -111,3 +111,9 @@ url={https://openreview.net/forum?id=xmxgMij3LY}
 
 This code is distributed under an [GPL-3.0 license](LICENSE).
 
+## OptShapeGen encoder entry
+
+The `optshapegen-shape-encoder` branch adds a standalone shape encoder while
+retaining the upstream source tree. See [OPTSHAPEGEN.md](OPTSHAPEGEN.md) for the
+entry point, provenance, checkpoint loading and numerical parity details.
+

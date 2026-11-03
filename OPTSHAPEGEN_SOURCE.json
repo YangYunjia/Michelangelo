@@ -1,0 +1,40 @@
+{
+  "source_repository": "experiments/baselines/meshanythingv2",
+  "source_revision": "461d3b6ed750ab3443281b2e4a0e30e8ee98097e",
+  "original_files": {
+    "encoder.py": {
+      "path": "meshanything_train/miche/michelangelo/models/tsal/sal_perceiver.py",
+      "sha256": "67504ca8d091303f896f29cb11fabba12fc292c45a01ea7382d4d055ee43fdb6"
+    },
+    "embedder.py": {
+      "path": "meshanything_train/miche/michelangelo/models/modules/embedder.py",
+      "sha256": "425d3d6f8b38ad6b2d7426923b75e577a509c995357001c85eecbc4ca9ad8b34"
+    },
+    "transformer_blocks.py": {
+      "path": "meshanything_train/miche/michelangelo/models/modules/transformer_blocks.py",
+      "sha256": "e96995fd647a4a2cf659d6be71b184f8dd2b2aa5fc17f3a18e3cba7fe706c911"
+    },
+    "checkpoint.py": {
+      "path": "meshanything_train/miche/michelangelo/models/modules/checkpoint.py",
+      "sha256": "5c5809d131651f872198535cecb37c643a9d41d7f4d4786b63895ab5ef2c0295"
+    },
+    "__init__.py": {
+      "path": "meshanything_train/miche/michelangelo/models/__init__.py",
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    }
+  },
+  "adapted_sha256": {
+    "encoder.py": "78959f7ad78e8cdf1d99888c4591acb17c401bd3d1fb0445fb26b4cdfaf986ac",
+    "embedder.py": "a8fbea05f62600d3807df187b54c3d5e4797584dad2ae6eccfc04d51a4c8d73f",
+    "transformer_blocks.py": "76fb2c782b38d250d7408a10ac7b5601dde488641eebb9f4be9da1be48182cc7",
+    "checkpoint.py": "4213569ac0d36014e4571177dbb5d463bd385898feabef98447f28d7a175e7c2",
+    "__init__.py": "a2b8d3a504c8525454d893bc477c9f29dfe74c8b23b347672fa0af183111d99a"
+  },
+  "source_archive_sha256": "02f7327471620fb07f700a005b3ed92b3a598c3624f318d76a793249e01e4e61",
+  "modifications": [
+    "encoder-only extraction and local AlignedShapeEncoder wrapper",
+    "relative imports",
+    "short function docstrings"
+  ],
+  "parity_report": "results/vertexregen_config_encoder_20261103/encoder_parity.json"
+}
